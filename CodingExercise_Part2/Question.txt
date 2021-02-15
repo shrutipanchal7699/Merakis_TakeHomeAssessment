@@ -1,0 +1,12 @@
+Imaging a loading dock, a ship with containers. Given an array of tags
+representing the container type that needs to be loaded. There’s only one
+container crane that can be used to load a container. Containers can be loaded in
+whatever order. Each container is loaded in one time unit. For each time unit, the
+loading crane can complete loading one container or just stay idle (aka. Do
+nothing).
+Now, there's an additional integer M (>=0) that represents the wait time needed
+between loading two containers of the same type (tag). This means that there
+should be at least M time units between loading any two containers of the same
+type.
+Return the smallest number of time units that it will take the container crane to
+finish loading all the containers.
